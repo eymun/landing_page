@@ -242,7 +242,7 @@
     /***************************************************************************/
     $(".mailchimp-subscribe").ajaxChimp({
         callback: mailchimpCallback,
-        url: "http://deviserweb.us8.list-manage.com/subscribe/post?u=8035b74ecdb23c8ce0ccb094f&id=1a9b909143" // Replace your mailchimp post url inside double quote "".
+        url: "http://eymun.us13.list-manage.com/subscribe/post?u=cca0fd7eb939083e5bdef41cc&amp;id=2f5ababfcc" // Replace your mailchimp post url inside double quote "".
     });
 
     function mailchimpCallback(resp) {
