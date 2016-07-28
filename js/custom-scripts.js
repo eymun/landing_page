@@ -422,7 +422,7 @@
 
         var mapOptions = {
           center: myLocation,
-          zoom: 5,
+          zoom: 7,
           mapTypeControl: true,  /*This option will hide map type.*/
           draggable: true,   /*This option is used for disabling drag.*/
           scaleControl: false,   /*This option is used for disable zoom by scale.*/
