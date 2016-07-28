@@ -16,7 +16,7 @@
 
         if (image.src.match("map")) {
             image.src = "images/exit.png";
-        } 
+        }
         else {
             image.src = "images/map.png";
         }
@@ -34,7 +34,7 @@
           $(".header-overlay").css('min-height', height);
       }
     }
-    
+
 
 
 
@@ -47,7 +47,7 @@
 
           if( scrollPos > 150 ) {
              $('.navbar-fixed-top').removeClass('navbar-home');
-          } 
+          }
           else {
              $('.navbar-fixed-top').addClass('navbar-home');
           }
@@ -58,7 +58,7 @@
 
 
     /**************************************
-       PRELOADER                     
+       PRELOADER
     ***************************************/
     // makes sure the whole site is loaded
     $(window).load(function() {
@@ -86,7 +86,7 @@
 
         /**********************************************************/
         /* CAROUSEL SLIDER -APP SCREENS */
-        /**********************************************************/     
+        /**********************************************************/
         var owl = $("#slider");
 
         /* TESTIMONIAL SYNC WITH CLIENTS */
@@ -242,7 +242,7 @@
     /***************************************************************************/
     $(".mailchimp-subscribe").ajaxChimp({
         callback: mailchimpCallback,
-        url: "http://deviserweb.us8.list-manage.com/subscribe/post?u=8035b74ecdb23c8ce0ccb094f&id=1a9b909143" // Replace your mailchimp post url inside double quote "".  
+        url: "http://deviserweb.us8.list-manage.com/subscribe/post?u=8035b74ecdb23c8ce0ccb094f&id=1a9b909143" // Replace your mailchimp post url inside double quote "".
     });
 
     function mailchimpCallback(resp) {
@@ -253,15 +253,15 @@
                 .fadeIn(1000);
 
             $('.subscription-failed').fadeOut(500);
-            
+
         } else if(resp.result === 'error') {
             $('.subscription-failed')
                 .html('<i class="fa fa-close"></i>' + "&nbsp;" + resp.msg)
                 .delay(500)
                 .fadeIn(1000);
-                
+
             $('.subscription-success').fadeOut(500);
-        }  
+        }
     };
 
 
@@ -367,7 +367,7 @@
     /**********************************************************/
     /* COUNT DOWN */
     /**********************************************************/
-            
+
     $('.count_down').countdown({
         end_time: "2016/06/21 14:27:28 +0600",
         wrapper: function(unit){
@@ -398,7 +398,7 @@
     r = $('.panel:first-child .panel-heading .panel-title a');
     r.addClass('rotate');
     link.click(function(){
-        
+
         if($(this).hasClass('rotate')){
             $(this).removeClass('rotate');
         }
@@ -418,7 +418,7 @@
     /*   GOOGLE MAP  */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(45.430817,12.331516);
+        var myLocation = new google.maps.LatLng(-34.9810167,-71.2452981);
 
         var mapOptions = {
           center: myLocation,
@@ -429,21 +429,20 @@
           scrollwheel: false,   /*This option is used for disable zoom on mouse.*/
           navigationControl: true,   /**/
           streetViewControl: true   /**/
-          
+
         };
 
         var marker = new google.maps.Marker({
             position: myLocation,
-            title:"Peggy Guggenheim Collection"});
-          
+            title:"Curicó"});
+
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
 
-        marker.setMap(map); 
+        marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', init_map);
 
 
 
 });
-
