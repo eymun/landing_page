@@ -320,8 +320,9 @@
         if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
             $.ajax({
                 type: "POST",
-                url: "sendmail.php",
+                url: "https://formspree.io/sdelcampo@eymun.com",
                 data: data,
+                dataType: "json",
                 success: function() {
                     $('.email-success').delay(500).fadeIn(1000);
                     $('.email-failed').fadeOut(500);

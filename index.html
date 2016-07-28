@@ -726,13 +726,12 @@
                                                     <p class="email-success"><i class="fa fa-check"></i> Your quote has successfully been sent.</p>
                                                     <p class="email-failed"><i class="fa fa-close"></i> Something went wrong!</p>
                                                 </div>
-
-
                                                 <div class="input-group ">
                                                     <div class="input_form col-sm-12 col-md-6"><!-- input: Name -->
                                                         <input type="text" id="name" name="name" placeholder="Your Name" class="form-control">
                                                     </div>
-
+                                                    <input type="hidden" name="_subject" value="New contact!" />
+                                                    <input type="text" name="_gotcha" style="display:none" />
                                                     <div class="input_form col-sm-12 col-md-6"><!-- input: Email -->
                                                         <input type="email" id="email" name="email" placeholder="Email " class="form-control">
                                                     </div>
