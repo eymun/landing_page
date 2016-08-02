@@ -4,11 +4,11 @@
     		<script type="text/javascript">
     			var userLang = navigator.language || navigator.userLanguage;
     			console.log(userLang);
-    			if(/^es/.test(userLang)) {
-            window.location.href = "./es"
+    			if(!(/^es/.test(userLang))) {
+            window.location.href = "./en"
     			}
           else {
-            window.location.href = "./en"
+            window.location.href = "./es"
           }
     		</script>
         <!-- TITLE OF SITE -->
