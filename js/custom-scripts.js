@@ -238,7 +238,7 @@
 
 
     /***************************************************************************/
-    /* MAILCHIMP NEWSLETTER SUBSCRIPTION */
+    /* MAILCHIMP EN NEWSLETTER SUBSCRIPTION */
     /***************************************************************************/
     $(".mailchimp-subscribe").ajaxChimp({
         callback: mailchimpCallback,
@@ -264,6 +264,32 @@
         }
     };
 
+    /***************************************************************************/
+    /* MAILCHIMP ES NEWSLETTER SUBSCRIPTION */
+    /***************************************************************************/
+    $(".mailchimp-es-subscribe").ajaxChimp({
+        callback: mailchimpCallback,
+        url: "http://eymun.us13.list-manage.com/subscribe/post?u=cca0fd7eb939083e5bdef41cc&amp;id=7a91eb6b53" // Replace your mailchimp post url inside double quote "".
+    });
+
+    function mailchimpCallback(resp) {
+         if(resp.result === 'success') {
+            $('.subscription-success')
+                .html('<i class="fa fa-check"></i>' + "&nbsp;" + resp.msg)
+                .delay(500)
+                .fadeIn(1000);
+
+            $('.subscription-failed').fadeOut(500);
+
+        } else if(resp.result === 'error') {
+            $('.subscription-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;" + resp.msg)
+                .delay(500)
+                .fadeIn(1000);
+
+            $('.subscription-success').fadeOut(500);
+        }
+    };
 
 
     // Function for email address validation
