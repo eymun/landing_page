@@ -5,10 +5,10 @@
     			var userLang = navigator.language || navigator.userLanguage;
     			console.log(userLang);
     			if(!(/^es/.test(userLang))) {
-            window.location.href = "./en"
+            window.location = "./en"
     			}
           else {
-            window.location.href = "./es"
+            window.location = "./es"
           }
     		</script>
       </head>
