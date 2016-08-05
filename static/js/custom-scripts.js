@@ -418,7 +418,7 @@
     /*   GOOGLE MAP  */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(-34.9810167,-71.2452981);
+        var myLocation = new google.maps.LatLng(-22.9111721,-43.5884176);
 
         var mapOptions = {
           center: myLocation,
@@ -432,9 +432,9 @@
 
         };
 
-        var marker = new google.maps.Marker({
-            position: myLocation,
-            title:"Curicó"});
+        // var marker = new google.maps.Marker({
+        //     position: myLocation,
+        //     title:"Curicó"});
 
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
