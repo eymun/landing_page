@@ -67,7 +67,7 @@
   /*===       END   --->  "TAB AREA" CSS        ====*/
   /*===       START  --->  "Newsletter" CSS       ====*/
   .news_letter {
-    background-position: 0 !important;
+    background-position: 50% !important;
   }
   .btn-standard {
     min-width: 150px;
