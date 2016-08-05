@@ -29,7 +29,8 @@ h3 {
 .contact_body_full,
 .collapse_area_body,
 .tab-body,
-.tab-content-cus {
+.tab-content-cus,
+.news_letter_body {
   padding-top: 80px;
   overflow: hidden;
 }
@@ -40,6 +41,7 @@ h3 {
 .subscribe_form,
 .contact_body_full,
 .collapse_area_body,
+.news_letter_body,
 .tab-body {
   padding-bottom: 80px;
 }
@@ -50,6 +52,7 @@ h3 {
 .collapse_left h2,
 .collapse_right h2,
 .collapse_area_body,
+.news_letter_body,
 .profile-left h3,
 .app_screen h2 {
   margin-bottom: 40px;
@@ -90,7 +93,7 @@ svg {
 *
 */
 .background_img {
-  background: url('../images/map1.jpg') center fixed;
+  background: url('../images/bg_2.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -167,6 +170,35 @@ svg {
   height: 45px;
   font-size: 14px;
   outline: 0;
+}
+.btn-group {
+  margin: 2% 0;
+}
+.btn-group .btn {
+  text-transform: uppercase;
+  padding: 10px;
+  width: 180px;
+  border-radius: 3px 3px 3px 3px !important;
+  -webkit-border-radius: 3px 3px 3px 3px !important;
+  -moz-border-radius: 3px 3px 3px 3px !important;
+  -ms-border-radius: 3px 3px 3px 3px !important;
+  -o-border-radius: 3px 3px 3px 3px !important;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border-width: 2px;
+  border-style: solid;
+  color: #FFFFFF;
+}
+.btn-group .btn:hover,
+.btn-group .btn:focus,
+.btn-group .btn:active,
+.btn-group .btn.active {
+  color: #fff;
+}
+.btn-group .btn-subscribe {
+  color: #fff !important;
 }
 .header_body_right {
   margin-top: 150px;
@@ -272,11 +304,9 @@ svg {
 ******************************************
 *
 *   news_letter
-*
 */
 .news_letter {
-  background: url(../images/photo-1440439307159-c3afc8a8e4ff.jpg) top center fixed;
-  background-size: cover;
+  background: url('../images/photo-1440439307159-c3afc8a8e4ff.jpg') center fixed;
   background-repeat: repeat;
   overflow: hidden;
 }
@@ -353,7 +383,7 @@ svg {
 *
 */
 .background_img_2 {
-  background: url('../images/photo-1415033523948-6c31d010530d.jpg') center fixed;
+  background: url('../images/photo-1431029505519-1fe6fe121714.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -436,7 +466,7 @@ svg {
 *
 */
 .background_img_2 {
-  background: url('../images/photo-1415033523948-6c31d010530d.jpg') center fixed;
+  background: url('../images/photo-1431029505519-1fe6fe121714.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }

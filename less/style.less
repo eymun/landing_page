@@ -69,7 +69,8 @@ h3{
 .contact_body_full, 
 .collapse_area_body, 
 .tab-body, 
-.tab-content-cus
+.tab-content-cus,
+.news_letter_body
 {
     padding-top: 80px;
     .fix;
@@ -82,6 +83,7 @@ h3{
 .subscribe_form, 
 .contact_body_full, 
 .collapse_area_body, 
+.news_letter_body,
 .tab-body
 {
     padding-bottom: 80px;
@@ -94,6 +96,7 @@ h3{
 .collapse_left h2, 
 .collapse_right h2, 
 .collapse_area_body, 
+.news_letter_body,
 .profile-left h3,
 .app_screen h2
 {
@@ -254,6 +257,33 @@ svg{
 
 
 
+.btn-group{
+    margin: 2% 0;
+    .btn{
+        text-transform: uppercase;
+        padding: 10px;
+        width: 180px;
+        .border-radius(@border_r, @border_r, @border_r, @border_r);
+        margin-right: 15px;
+        transition: all 0.4s;
+        font-size: 14px;
+        margin-bottom: 15px;
+        border-width: 2px;
+        border-style: solid;
+        color: #FFFFFF;
+        
+        &:hover, &:focus, &:active, &.active{
+            color: #fff;
+        }
+    }
+    .btn-subscribe{
+        color: #fff !important;
+    }
+
+}
+
+
+
 
 
 .header_body_right{
@@ -387,20 +417,14 @@ svg{
 
 
 
-
 /*
 ******************************************
 *
 *   news_letter
-*   
 */
 
 .news_letter{
-    background: url(../images/newsletter_bg.jpg) top center fixed;
-    background-size: cover;
-    background-repeat: repeat;
-    .fix;
-    
+    .bg_img('../images/newsletter_bg.jpg', repeat);
 }
 
 .news_letter_body{
@@ -466,6 +490,11 @@ svg{
 .btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.active {
     color: #fff;
 }
+
+
+
+
+
 
 
 /*

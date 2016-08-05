@@ -41,6 +41,9 @@
     text-align: center;
     margin: auto;
   }
+  .subscribe .btn-group .btn {
+    float: none ;
+  }
   .subscription {
     margin: auto;
     float: none;
@@ -49,11 +52,6 @@
     min-width: 150px;
   }
   /*===       END   --->  "Header" CSS        ====*/
-  /*===       START   --->  "collapse" CSS        ====*/
-  .collapse_right {
-    margin-top: 80px;
-  }
-  /*===       END   --->  "collapse" CSS        ====*/
   /*===       START   --->  "TAB AREA" CSS        ====*/
   .slider .item {
     display: inline-block;
@@ -67,6 +65,25 @@
     justify-content: center;
   }
   /*===       END   --->  "TAB AREA" CSS        ====*/
+  /*===       START  --->  "Newsletter" CSS       ====*/
+  .news_letter {
+    background-position: 0 !important;
+  }
+  .btn-standard {
+    min-width: 150px;
+  }
+  .btn-main {
+    font-weight: 300;
+  }
+  .news_letter_body {
+    width: 83%;
+  }
+  /*===   END   --->  "Newsletter" CSS     ====*/
+  /*===       START   --->  "collapse" CSS        ====*/
+  .collapse_right {
+    margin-top: 80px;
+  }
+  /*===       END   --->  "collapse" CSS        ====*/
   /*===       START  --->  "Contact" CSS       ====*/
   .contact_body_right {
     margin-top: 40px;
@@ -84,6 +101,11 @@
     min-width: 90px !important;
   }
   /*===   END   --->  "header" CSS     ====*/
+  /*===       START  --->  "Newsletter" CSS       ====*/
+  .btn-standard {
+    min-width: 87px;
+  }
+  /*===   END   --->  "Newsletter" CSS     ====*/
   /*===       START  --->  "Contact" CSS       ====*/
   /*  Contact Form Area CSS */
   /*===       END  --->  "header" CSS       ====*/

@@ -12,7 +12,7 @@
         }
         $('#contact_background').slideToggle('show');
 
-        var image = document.getElementById('myImage');
+        var image = document.getElementById('myMap');
 
         if (image.src.match("map")) {
             image.src = "images/exit.png";
@@ -445,11 +445,12 @@
     /*   GOOGLE MAP  */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(-34.9810167,-71.2452981);
+        var myLocation = new google.maps.LatLng(-22.9111721,-43.5884176);
 
         var mapOptions = {
           center: myLocation,
           zoom: 7,
+          mapTypeId: 'hybrid',
           mapTypeControl: true,  /*This option will hide map type.*/
           draggable: true,   /*This option is used for disabling drag.*/
           scaleControl: false,   /*This option is used for disable zoom by scale.*/
@@ -459,14 +460,14 @@
 
         };
 
-        var marker = new google.maps.Marker({
-            position: myLocation,
-            title:"Curicó"});
+        // var marker = new google.maps.Marker({
+        //     position: myLocation,
+        //     title:"Curicó"});
 
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
 
-        marker.setMap(map);
+        //marker.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', init_map);
 
