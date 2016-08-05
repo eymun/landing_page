@@ -1,0 +1,236 @@
+@bg_overlay_color: rgba(0, 0, 0, 0.8);
+
+@mainColor: #7D56C1;
+@lightColor: rgba(125, 86, 193, 0.5);
+@button_hover: #7244c3;
+
+
+svg{
+    fill: @mainColor;
+    stroke: @mainColor;
+}
+
+
+/*
+******************************************
+*
+*   Subscription and contact  "MESSAGE"
+*   
+*/
+
+.subscription-failed, .email-failed{
+    color: @mainColor !important;
+}
+
+.subscription-success, .email-success{
+    color: @mainColor !important;
+}
+
+
+/*
+******************************************
+*
+*   class:  Header
+*   id: 
+*/
+
+.overlay_color{
+    background-color: @bg_overlay_color;
+}
+
+svg{
+    stroke: @mainColor;
+}
+
+
+.subscribe_form{
+    .input-group{
+        .form-control{
+            border-color: @mainColor;
+        }
+    }
+}
+
+
+
+
+/*
+******************************************
+*
+*   class:  contact  (contact area and map)
+*   id: section-4
+*/
+
+
+/*  Contact Form Area CSS */
+
+.btn-group{
+    .btn{
+        border-color: @mainColor;
+        color: @mainColor;
+        
+        &:hover, &:focus, &:active, &.active{
+            background-color: @button_hover;
+        }
+    }
+    .btn-subscribe{
+        background-color: @mainColor;
+    }
+
+}
+
+
+.btn-main {
+    background: @mainColor;
+}
+.btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.active {
+    background: @button_hover;
+    border-color: @button_hover !important;
+}
+
+
+/*  Contact Body Left Side  */
+
+.btn-submit{
+    background-color: @mainColor !important;
+    border-color: @mainColor !important;
+    
+    &:hover, &:focus, &:active, &.active{
+        background-color: @button_hover !important;
+        border-color: @button_hover !important;
+    }
+}
+
+
+/*  Contact Body Right Side  */
+.contact_body_right{
+    p{
+        a{
+            &:hover{
+                  color: @mainColor;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*
+******************************************
+*
+*   TAB AREA
+*   
+*/
+
+
+.tab-body{
+
+    .nav-tabs-cus{
+
+        li{
+
+            a{
+                &:hover{
+                    background-color: @mainColor !important;
+                }
+            }
+        }
+        .active {
+            width: 60%;
+
+            a{
+                background-color: @mainColor !important;
+            }
+        }
+    }
+}
+
+
+.icon{
+
+    &:hover{
+        .hex {
+            background-color: @mainColor;
+        }
+    }
+}
+
+
+
+
+/*
+******************************************
+*
+*   IMAGE HOVER EFFECT CUSTOM CSS
+*    
+*/
+
+.view-first .mask{
+    background-color: @lightColor;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+******************************************
+*
+*   Carousel Slider Page counter button  --   CSS
+*    
+*/
+
+.owl-page{
+    span{
+        background-color: @mainColor !important;
+    }
+}
+
+
+
+/*
+******************************************
+*
+*   Hexagon Shape
+*    
+*/
+
+
+.hex{
+    background-color: @mainColor;
+}
+
+
+
+
+/*
+******************************************
+*
+*   PRELOADER CSS
+*    
+*/
+
+.spinner-wrapper {
+    background: @mainColor;
+}
+
+
+
+
+/*
+******************************************
+*
+*   NICE SCROLL CSS
+*    
+*/
+
+.nicescroll-rails > div{
+    background-color: @button_hover !important;
+}

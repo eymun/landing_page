@@ -71,7 +71,7 @@ svg {
 ******************************************
 *
 *   Subscription and contact  "MESSAGE"
-*   
+*
 */
 .subscription-success,
 .subscription-failed,
@@ -87,10 +87,10 @@ svg {
 ******************************************
 *
 *   Header
-*   
+*
 */
 .background_img {
-  background: url('../images/bg_1.jpg') center fixed;
+  background: url('../images/map1.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -178,7 +178,7 @@ svg {
 ******************************************
 *
 *   TAB AREA
-*   
+*
 */
 .tab {
   background-color: #FFFFFF;
@@ -272,10 +272,10 @@ svg {
 ******************************************
 *
 *   news_letter
-*   
+*
 */
 .news_letter {
-  background: url(../images/newsletter_bg.jpg) top center fixed;
+  background: url(../images/photo-1440439307159-c3afc8a8e4ff.jpg) top center fixed;
   background-size: cover;
   background-repeat: repeat;
   overflow: hidden;
@@ -350,10 +350,10 @@ svg {
 ******************************************
 *
 *   app_screen_area
-*   
+*
 */
 .background_img_2 {
-  background: url('../images/bg_2.jpg') center fixed;
+  background: url('../images/photo-1415033523948-6c31d010530d.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -365,7 +365,7 @@ svg {
 ******************************************
 *
 *   COLLAPSE AREA
-*   
+*
 */
 .collapse_area {
   background-color: #FFFFFF;
@@ -433,10 +433,10 @@ svg {
 ******************************************
 *
 *   app_screen_area
-*   
+*
 */
 .background_img_2 {
-  background: url('../images/bg_2.jpg') center fixed;
+  background: url('../images/photo-1415033523948-6c31d010530d.jpg') center fixed;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -448,7 +448,7 @@ svg {
 ******************************************
 *
 *   contact  (contact area and map)
-*   
+*
 */
 #map {
   width: 100%;
@@ -582,7 +582,7 @@ svg {
 ******************************************
 *
 *   footer
-*   
+*
 */
 footer {
   background-color: #1C2328;
@@ -626,7 +626,7 @@ footer {
 ******************************************
 *
 *   Carousel Slider Page counter button  --   CSS
-*    
+*
 */
 #slider {
   display: block;
@@ -635,7 +635,7 @@ footer {
 ******************************************
 *
 *   Hexagon Shape
-*    
+*
 */
 .hex i {
   color: #fff;
@@ -654,13 +654,13 @@ footer {
 ******************************************
 *
 *   PRELOADER CSS
-*    
+*
 */
 /*
 ******************************************
 *
 *   FANCI BOX CSS
-*    
+*
 */
 .fancybox-opened .fancybox-skin {
   box-shadow: 0 0 0px 0 #00b3fe !important;

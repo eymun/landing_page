@@ -1,0 +1,142 @@
+svg {
+  fill: #2c91ef;
+  stroke: #2c91ef;
+}
+/*
+******************************************
+*
+*   Subscription and contact  "MESSAGE"
+*   
+*/
+.subscription-failed,
+.email-failed {
+  color: #2c91ef !important;
+}
+.subscription-success,
+.email-success {
+  color: #2c91ef !important;
+}
+/*
+******************************************
+*
+*   class:  Header
+*   id: 
+*/
+.overlay_color {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+svg {
+  stroke: #2c91ef;
+}
+.subscribe_form .input-group .form-control {
+  border-color: #2c91ef;
+}
+/*
+******************************************
+*
+*   class:  contact  (contact area and map)
+*   id: section-4
+*/
+/*  Contact Form Area CSS */
+.btn-group .btn {
+  border-color: #2c91ef;
+  color: #2c91ef;
+}
+.btn-group .btn:hover,
+.btn-group .btn:focus,
+.btn-group .btn:active,
+.btn-group .btn.active {
+  background-color: #1d74c5;
+}
+.btn-group .btn-subscribe {
+  background-color: #2c91ef;
+}
+.btn-main {
+  background: #2c91ef;
+}
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active,
+.btn-main.active {
+  background: #1d74c5;
+  border-color: #1d74c5 !important;
+}
+/*  Contact Body Left Side  */
+.btn-submit {
+  background-color: #2c91ef !important;
+  border-color: #2c91ef !important;
+}
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit.active {
+  background-color: #1d74c5 !important;
+  border-color: #1d74c5 !important;
+}
+/*  Contact Body Right Side  */
+.contact_body_right p a:hover {
+  color: #2c91ef;
+}
+/*
+******************************************
+*
+*   TAB AREA
+*   
+*/
+.tab-body .nav-tabs-cus li a:hover {
+  background-color: #2c91ef !important;
+}
+.tab-body .nav-tabs-cus .active {
+  width: 60%;
+}
+.tab-body .nav-tabs-cus .active a {
+  background-color: #2c91ef !important;
+}
+.icon:hover .hex {
+  background-color: #2c91ef;
+}
+/*
+******************************************
+*
+*   IMAGE HOVER EFFECT CUSTOM CSS
+*    
+*/
+.view-first .mask {
+  background-color: rgba(45, 146, 239, 0.5);
+}
+/*
+******************************************
+*
+*   Carousel Slider Page counter button  --   CSS
+*    
+*/
+.owl-page span {
+  background-color: #2c91ef !important;
+}
+/*
+******************************************
+*
+*   Hexagon Shape
+*    
+*/
+.hex {
+  background-color: #2c91ef;
+}
+/*
+******************************************
+*
+*   PRELOADER CSS
+*    
+*/
+.spinner-wrapper {
+  background: #2c91ef;
+}
+/*
+******************************************
+*
+*   NICE SCROLL CSS
+*    
+*/
+.nicescroll-rails > div {
+  background-color: #1d74c5 !important;
+}
