@@ -12,7 +12,7 @@
         }
         $('#contact_background').slideToggle('show');
 
-        var image = document.getElementById('myImage');
+        var image = document.getElementById('myMap');
 
         if (image.src.match("map")) {
             image.src = "images/exit.png";
