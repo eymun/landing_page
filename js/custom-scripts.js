@@ -7,9 +7,9 @@
     /**********************************************************/
     window['changeImage'] = function() {
         var width = $(window).width();
-        if(width < 768){
-            return;
-        }
+        //if(width < 768){
+        //    return;
+        //}
         $('#contact_background').slideToggle('show');
 
         var image = document.getElementById('myMap');
