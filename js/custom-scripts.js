@@ -346,7 +346,7 @@
         if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
             $.ajax({
                 type: "POST",
-                url: "https://formspree.io/eymunapp@gmail.com",
+                url: "https://formspree.io/eymunapp@eymun.com",
                 data: data,
                 dataType: "json",
                 success: function() {
