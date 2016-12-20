@@ -233,43 +233,14 @@
         offset: 0 //Height of Navigation Bar
     });
 
-
-
-
-
-    /***************************************************************************/
-    /* MAILCHIMP EN NEWSLETTER SUBSCRIPTION */
-    /***************************************************************************/
-    $(".mailchimp-subscribe").ajaxChimp({
-        callback: mailchimpCallback,
-        url: "http://eymun.us13.list-manage.com/subscribe/post?u=cca0fd7eb939083e5bdef41cc&amp;id=2f5ababfcc" // Replace your mailchimp post url inside double quote "".
-    });
-
-    function mailchimpCallback(resp) {
-         if(resp.result === 'success') {
-            $('.subscription-success')
-                .html('<i class="fa fa-check"></i>' + "&nbsp;" + resp.msg)
-                .delay(500)
-                .fadeIn(1000);
-
-            $('.subscription-failed').fadeOut(500);
-
-        } else if(resp.result === 'error') {
-            $('.subscription-failed')
-                .html('<i class="fa fa-close"></i>' + "&nbsp;" + resp.msg)
-                .delay(500)
-                .fadeIn(1000);
-
-            $('.subscription-success').fadeOut(500);
-        }
-    };
+ 
 
     /***************************************************************************/
     /* MAILCHIMP ES NEWSLETTER SUBSCRIPTION */
     /***************************************************************************/
     $(".mailchimp-es-subscribe").ajaxChimp({
         callback: mailchimpCallback,
-        url: "http://eymun.us13.list-manage.com/subscribe/post?u=cca0fd7eb939083e5bdef41cc&amp;id=7a91eb6b53" // Replace your mailchimp post url inside double quote "".
+        url: "http://eymun.us14.list-manage.com/subscribe/post?u=5c795cae9235fd09d97fc7e90&amp;id=0d0c99d589" // Replace your mailchimp post url inside double quote "".
     });
 
     function mailchimpCallback(resp) {
